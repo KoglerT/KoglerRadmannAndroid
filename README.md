@@ -1,4 +1,6 @@
 
+There is a second readme for the changes made in this project
+
 Android BasicMultitouch Sample
 ===================================
 
