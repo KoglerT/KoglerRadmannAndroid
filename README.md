@@ -1,5 +1,5 @@
 
-There is a second readme for the changes made in this project
+There is a second readme for the changes made in this project in Application/readme.md
 
 Android BasicMultitouch Sample
 ===================================
