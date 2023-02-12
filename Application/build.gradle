@@ -67,8 +67,8 @@ android {
     signingConfigs {
         debug {
             storeFile file('secrets.MY_SECRET')
-                    storePassword findProperty('storePassword')
-                    keyPassword findProperty('keyPassword')
+                    storePassword findProperty('secrets.ANDROID_KEYSTORE_PASSPHRASE')
+                    keyPassword findProperty('secrets.ANDROID_KEYSTORE_PASSPHRASE')
                     keyAlias 'key0'
         }
         release {
